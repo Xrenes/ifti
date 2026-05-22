@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Work — All projects by Sayed Ifti Ahmed." />
+    <title>Work | Sayed Ifti Ahmed</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="navbar" aria-label="Primary">
+      <div class="nav-pill">
+        <a href="index.html" class="nav-logo">Ifti</a>
+        <ul class="nav-links" role="list">
+          <li><a href="timeline.html" class="nav-text-link">timeline</a></li>
+          <li><a href="work.html" class="nav-text-link active">work</a></li>
+          <li><a href="about.html" class="nav-text-link">about</a></li>
+          <li><a href="story.html" class="nav-text-link">story</a></li>
+        </ul>
+        <div class="nav-icons">          <button class="nav-icon theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="inner-page">
+      <div class="container">
+        <h1 class="page-title">Work</h1>
+        <p class="page-subtitle">All projects &mdash; shipped, ongoing, and in the works.</p>
+
+        <div class="proj-grid">
+
+          <a href="https://xrenes.github.io/amber-flow/" target="_blank" rel="noopener noreferrer" class="proj-card reveal">
+            <div class="proj-thumb">
+              <img src="amber-flow.png" alt="Amber Flow preview" loading="lazy">
+            </div>
+            <div class="proj-info">
+              <h3 class="proj-title">Amber Flow <span class="status-pill live">Live</span></h3>
+              <p class="proj-desc">Productivity dashboard with tasks, session time tracker, world clocks &amp; appointment scheduling.</p>
+              <div class="card-tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://xrenes.github.io/Byte-to-Byte/" target="_blank" rel="noopener noreferrer" class="proj-card reveal">
+            <div class="proj-thumb">
+              <img src="byte-to-byte.png" alt="Byte to Byte preview" loading="lazy">
+            </div>
+            <div class="proj-info">
+              <h3 class="proj-title">Byte to Byte <span class="status-pill live">Live</span></h3>
+              <p class="proj-desc">Source-to-source transpiler converting code between 10 programming languages.</p>
+              <div class="card-tags">
+                <span class="tag">Compiler</span><span class="tag">JavaScript</span><span class="tag">Parsing</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.isaconnect.co/" target="_blank" rel="noopener noreferrer" class="proj-card reveal">
+            <div class="proj-thumb">
+              <img src="isa-connect.png" alt="ISA Connect preview" loading="lazy">
+            </div>
+            <div class="proj-info">
+              <h3 class="proj-title">ISA Connect <span class="status-pill ongoing">Ongoing</span></h3>
+              <p class="proj-desc">Real-estate lead conversion platform &mdash; 24/7 ISA team for calls and appointments.</p>
+              <div class="card-tags">
+                <span class="tag">Web Platform</span><span class="tag">CRM</span><span class="tag">Booking</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://xrenes.github.io/DBMS/" target="_blank" rel="noopener noreferrer" class="proj-card reveal">
+            <div class="proj-thumb" style="background:linear-gradient(135deg,#a855f7,#ec4899); display:flex; align-items:center; justify-content:center;">
+              <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <div class="proj-info">
+              <h3 class="proj-title">DBMS Project <span class="status-pill archive">Archive</span></h3>
+              <p class="proj-desc">Database management system project showcasing data modeling and query handling.</p>
+              <div class="card-tags">
+                <span class="tag">SQL</span><span class="tag">DBMS</span><span class="tag">Coursework</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-copy">&copy; <span id="year"></span> Sayed Ifti Ahmed.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

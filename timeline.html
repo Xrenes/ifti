@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Timeline — Sayed Ifti Ahmed's journey." />
+    <title>Timeline | Sayed Ifti Ahmed</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="navbar" aria-label="Primary">
+      <div class="nav-pill">
+        <a href="index.html" class="nav-logo">Ifti</a>
+        <ul class="nav-links" role="list">
+          <li><a href="timeline.html" class="nav-text-link active">timeline</a></li>
+          <li><a href="work.html" class="nav-text-link">work</a></li>
+          <li><a href="about.html" class="nav-text-link">about</a></li>
+          <li><a href="story.html" class="nav-text-link">story</a></li>
+        </ul>
+        <div class="nav-icons">          <button class="nav-icon theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="inner-page">
+      <div class="container container-narrow">
+        <h1 class="page-title">Timeline</h1>
+        <p class="page-subtitle">A log of milestones, projects, and moments that shaped the journey.</p>
+
+        <ol class="timeline" role="list">
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2026 &middot; Now</span>
+              <h3>ISA Connect &mdash; Launch</h3>
+              <p>Shipped a full real-estate lead conversion platform with 24/7 ISA services, CRM integrations and a booking system.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">Late 2025</span>
+              <h3>Byte to Byte Transpiler</h3>
+              <p>Built a source-to-source compiler that converts code between 10 languages &mdash; C, C++, Python, JavaScript, Java, Go, Rust, TypeScript, C#, Ruby.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">Mid 2025</span>
+              <h3>Amber Flow</h3>
+              <p>Released a productivity dashboard with task management, session time tracking, world clocks and appointment scheduling.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">Early 2025</span>
+              <h3>First Freelance Build</h3>
+              <p>Delivered a landing page + booking flow for a local client &mdash; my first paid web project.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">Late 2024</span>
+              <h3>DBMS Project</h3>
+              <p>Developed a web-based database management system project demonstrating core DBMS concepts, data modelling and query handling.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">2024</span>
+              <h3>Started CSE at DIU</h3>
+              <p>Enrolled in B.Sc. Computer Science &amp; Engineering at Daffodil International University. The obsession with building things begins in earnest.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-date">Pre-2024</span>
+              <h3>Self-Taught Beginnings</h3>
+              <p>Took apart a broken device just to see how it worked. Wrote my first lines of code. The loop &mdash; build, break, learn, repeat &mdash; started here.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-copy">&copy; <span id="year"></span> Sayed Ifti Ahmed.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
